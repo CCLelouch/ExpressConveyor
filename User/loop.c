@@ -107,7 +107,7 @@ void loop(void)				//循环主函数
     ConveyorState = Head;
     printf("Star\r\n");
   }
-  else if(KeyBuffer.Name == Key_2 && KeyBuffer.ReadFlag==1) /*停止按钮*/         
+  else if(KeyBuffer.Name == Key_2 && KeyBuffer.ReadFlag==1||(!memcmp(buf,"acaccmdstend",12))) /*停止按钮*/         
   {
     SteppingMotor[0].updateme = 1;
     SteppingMotor[0].rotation =  STOP;/*电机旋转方向*/

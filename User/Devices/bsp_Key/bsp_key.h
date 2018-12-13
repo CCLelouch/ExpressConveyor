@@ -24,25 +24,25 @@
 /****************************************************************/
 
 /***************按键位数选择 1 Enable 0 Disable******************/
-#define KEYSPR               0         /* separate key 独立按键 */
-#define	KEY16                1            /* 十六位矩阵按键按键 */
+#define KEYSPR               1         /* separate key 独立按键 */
+#define	KEY16                0            /* 十六位矩阵按键按键 */
 /****************************************************************/
 
 /****** KEYSPR DEFINE 用户可自行定义多个独立按键 一般不超过16个*********/   ///////////////////*不知道为什么 PB口不行*/////////////////////
 /*用户实际需要修改*/
 #if ( KEYSPR==1 )
-	#define Key1_Bus							GPIOC           
-	#define Key2_Bus							GPIOC
-	#define Key3_Bus							GPIOC
-	#define Key4_Bus							GPIOC
-	#define Key1_Pin							GPIO_Pin_1
-	#define Key2_Pin							GPIO_Pin_2
-	#define Key3_Pin							GPIO_Pin_3
-	#define Key4_Pin							GPIO_Pin_4
-	#define Key1_Bus_CLK					RCC_APB2Periph_GPIOC
-	#define Key2_Bus_CLK					RCC_APB2Periph_GPIOC
-	#define Key3_Bus_CLK					RCC_APB2Periph_GPIOC
-	#define Key4_Bus_CLK					RCC_APB2Periph_GPIOC
+	#define Key1_Bus							GPIOF           
+	#define Key2_Bus							GPIOF
+	#define Key3_Bus							GPIOF
+	#define Key4_Bus							GPIOF
+	#define Key1_Pin							GPIO_Pin_4
+	#define Key2_Pin							GPIO_Pin_5
+	#define Key3_Pin							GPIO_Pin_6
+	#define Key4_Pin							GPIO_Pin_7
+	#define Key1_Bus_CLK					RCC_APB2Periph_GPIOF
+	#define Key2_Bus_CLK					RCC_APB2Periph_GPIOF
+	#define Key3_Bus_CLK					RCC_APB2Periph_GPIOF
+	#define Key4_Bus_CLK					RCC_APB2Periph_GPIOF
 #endif
 /************************************************************************/
 
@@ -64,7 +64,7 @@
 #define KEYSPR_GPIODETECTION {     if (Read_Key(Key1_Bus,Key1_Pin) == ACTIVELOGIC) return_buff = Key_1;\
 															else if	(Read_Key(Key2_Bus,Key2_Pin) == ACTIVELOGIC) return_buff = Key_2;\
 															else if	(Read_Key(Key3_Bus,Key3_Pin) == ACTIVELOGIC) return_buff = Key_3;\
-															else if	(Read_Key(Key4_Bus,Key4_Pin) == ACTIVELOGIC) return_buff = Key_4;\
+															else if	(Read_Key(Key4_Bus,Key4_Pin) == !ACTIVELOGIC) return_buff = Key_4;\
 															else 																			           return_buff = Key_Up;}
 /**********************************************************************************************************/
 

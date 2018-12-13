@@ -1,0 +1,49 @@
+.\objects\loop.o: ..\User\loop.c
+.\objects\loop.o: ..\User\head.h
+.\objects\loop.o: ..\Libraries\CMSIS\stm32f10x.h
+.\objects\loop.o: ..\Libraries\CMSIS\core_cm3.h
+.\objects\loop.o: D:\keil\keil ARM\keil ARM set\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\loop.o: ..\Libraries\CMSIS\system_stm32f10x.h
+.\objects\loop.o: ..\User\stm32f10x_conf.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\objects\loop.o: ..\Libraries\CMSIS\stm32f10x.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\objects\loop.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\objects\loop.o: ..\User\typedefs.h
+.\objects\loop.o: ..\User\user.h
+.\objects\loop.o: ..\User\Drivers\USART\USART.H
+.\objects\loop.o: D:\keil\keil ARM\keil ARM set\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\loop.o: D:\keil\keil ARM\keil ARM set\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\loop.o: ..\User\Drivers\DMA\DMA.h
+.\objects\loop.o: ..\User\Drivers\Delay\delay.h
+.\objects\loop.o: ..\User\Drivers\TIM\TIM.h
+.\objects\loop.o: ..\User\head.h
+.\objects\loop.o: ..\User\Devices\Motor\Motor.h
+.\objects\loop.o: ..\User\Drivers\GPIO\GPIO.h
+.\objects\loop.o: ..\User\Drivers\TIM\TIM.h
+.\objects\loop.o: ..\User\Drivers\NVIC\NVIC.H
+.\objects\loop.o: ..\User\Drivers\GPIO\GPIO.h
+.\objects\loop.o: ..\User\Drivers\NVIC\NVIC.h
+.\objects\loop.o: ..\User\Devices\bsp_key\bsp_key.h
+.\objects\loop.o: ..\User\Drivers\GPIO\GPIO.H
+.\objects\loop.o: D:\keil\keil ARM\keil ARM set\ARM\ARMCC\Bin\..\include\string.h
